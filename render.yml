@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: custom-payment-gateway-api
+    env: node
+    plan: free
+    repo: https://github.com/your_username/your_repository
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "node index.js"
